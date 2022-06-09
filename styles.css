@@ -1,0 +1,39 @@
+* {
+    background-color: #8A9A5B;
+    font-family: sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+a::before {
+    color: white;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+
+/** recipes page styling **/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+}
+
+.recipe-desc {
+    text-align: center;
+    padding: 0 5%;
+}
+
+ul, ol {
+
+    padding: 0 25%;
+}
